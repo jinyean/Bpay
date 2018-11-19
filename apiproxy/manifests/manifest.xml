@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:fedac28ff50d0bca86015a692d1b6e093718a7c700308eebb8b74c4b95a71815a7bc9dd92d2809176c881a6affe89177a87205bb9ae618083036394d199b3d05"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:f50bda3fb8004531dbaf802e042ee6575c40cec7a979962b81ec38c7de9f78de308e704faa3afa45d17fde1126c1f057a062b64f687c073478c70f0241e155e5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:69b23723b59a68148515aba203bd88096e26893704f053a50d3283ce514606a600f6885b6266e67e57f14d599e52f283c697ec85046edcd42f0e23ee12c49c48"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:5c0892050e3e025bb478e535c96ce6fc184ff01ec2692dc345378e7fe51a14dfa55d5328f3f41418f7e37d9b13f88cdd9ca75d99e145dca2e9eba63b3ac810cf"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7c50571740ea61a753599d4a175a7af03d08480065276282b6a89aed013bfd575b94b48c548229be21a2aa254fea58959384302ac497893a0765592e7eb261fb"/>
+    </TargetEndpoints>
+</Manifest>

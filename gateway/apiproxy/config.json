@@ -1,0 +1,60 @@
+{
+   "configurations":[
+      {
+         "name":"test",
+         "proxies":[
+            {
+               "name":"default.xml",
+               "tokens":[
+                  {
+                     "xpath":"/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                     "value":"/testBpay/"
+                  }
+               ]
+            }
+         ],
+         "policies":[
+
+         ],
+         "targets":[
+            {
+               "name":"default.xml",
+               "tokens":[
+                  {
+                     "xpath":"/TargetEndpoint/HTTPTargetConnection/URL",
+                     "value":"https://st-api.bpay.com.au/payments/v1/"
+                  }
+               ]
+            }
+         ]
+      }, {
+         "name":"production",
+         "proxies":[
+            {
+               "name":"default.xml",
+               "tokens":[
+                  {
+                     "xpath":"/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                     "value":"/prodBpay/"
+                  }
+               ]
+            }
+         ],
+         "policies":[
+          ],
+         "targets":[
+            {
+               "name":"default.xml",
+               "tokens":[
+                  {
+                     "xpath":"/TargetEndpoint/HTTPTargetConnection/URL",
+                     "value":"https://api.bpay.com.au/payments/v1/"
+                  }
+               ]
+            }
+         ]
+      }
+
+   ]
+}
+
