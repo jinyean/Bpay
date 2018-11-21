@@ -7,7 +7,9 @@
             <Step>
                 <Name>verify-api-key</Name>
             </Step>
-
+            <Step>
+                <Name>spike-arrest</Name>
+            </Step>
             <Step>
                 <Name>remove-query-param-apikey</Name>
             </Step>
